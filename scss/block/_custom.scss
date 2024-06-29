@@ -1,0 +1,71 @@
+// CUSTOM //
+
+.custom {
+    background: linear-gradient(180.00deg, rgb(247, 247, 247),rgba(247, 247, 247, 0) 100%);  
+}
+
+.custom__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 53px 0px 51px 0px ;
+}
+
+.custom__span {
+    color: rgb(34, 52, 61);
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
+.custom__header {
+    color: rgb(34, 52, 61);
+    font-family: 'Poppins';
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.custom__text {
+    color: rgb(34, 52, 61);
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
+
+.custom__btn {
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 11px 18px ;
+    border-radius: 8px;
+    background: rgb(2, 137, 122);
+    border: none;
+    transition: all 0.4s ease;
+    
+    &:hover {
+        background: rgb(71, 94, 105);
+        transform: scale(1.1);
+    }
+    
+    &:active {
+        background: rgb(228, 233, 243);
+        transform: scale(1.3);
+    }
+}

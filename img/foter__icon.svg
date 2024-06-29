@@ -1,0 +1,16 @@
+<svg width="40.000000" height="40.000000" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip34_1212">
+			<rect id="instagram" width="24.000000" height="24.000000" transform="translate(8.000000 8.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<circle id="Ellipse 6" cx="20.000000" cy="20.000000" r="20.000000" fill="#EDFFFC" fill-opacity="1.000000"/>
+	<g clip-path="url(#clip34_1212)">
+		<path id="Vector" d="M25 10C27.76 10 30 12.23 30 15L30 25C30 27.76 27.76 30 25 30L15 30C12.23 30 10 27.76 10 25L10 15C10 12.23 12.23 10 15 10L25 10Z" stroke="#02897A" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+		<path id="Vector" d="M23.59 21.79C23.2 22.54 22.59 23.15 21.84 23.52C21.09 23.9 20.23 24.03 19.4 23.9C18.57 23.77 17.81 23.38 17.21 22.78C16.62 22.19 16.22 21.42 16.09 20.59C15.96 19.76 16.09 18.9 16.47 18.15C16.84 17.4 17.45 16.79 18.2 16.4C18.94 16.01 19.79 15.87 20.63 16C21.47 16.12 22.26 16.52 22.87 17.12C23.47 17.73 23.87 18.52 24 19.37C24.12 20.2 23.98 21.05 23.59 21.79Z" stroke="#02897A" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round"/>
+		<path id="Vector" d="M25.5 14.5L25.5 14.5" stroke="#02897A" stroke-opacity="1.000000" stroke-width="2.000000" stroke-linejoin="round" stroke-linecap="round"/>
+	</g>
+</svg>

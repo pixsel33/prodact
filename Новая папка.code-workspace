@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "Новая папка",
+			"path": "."
+		},
+		{
+			"name": ".vscode",
+			"path": "../.vscode"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Новая папка"
+	}
+}
