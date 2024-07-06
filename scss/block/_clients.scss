@@ -1,0 +1,38 @@
+// CLIENTS //
+
+
+.clients {
+    margin-top: 100px;
+}
+
+.clients__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.clients__header {
+    color: rgb(34, 52, 61);
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 50px;
+}
+
+.clients__img-wrapper {
+    display: flex;
+    align-items: center;
+    :last-child {
+        margin: 0px;
+    }
+    padding-bottom: 120px;
+}
+
+.clients__img {
+    margin-right: 64px;
+
+
+}

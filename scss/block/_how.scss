@@ -1,0 +1,112 @@
+// HOW //
+
+.how {
+    
+}
+
+.how__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.how__header {
+    color: rgb(34, 52, 61);
+    font-family: 'Poppins';
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 73px;
+}
+
+.how__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+    &:last-child {
+        margin-bottom: 78px;
+    }
+}
+
+.how__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.how__img {
+    width: 500px;
+    margin-right: 80px;
+    &:nth-child(2) {
+        margin-right: 0px;
+        margin-left: 80px;
+    }
+}
+
+.how__item-wrapper {
+    max-width: 440px;
+}
+
+.how__span {
+    color: rgb(34, 52, 61);
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+.how__item-header {
+    color: rgb(34, 52, 61);
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    letter-spacing: 0px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.how__text {
+    color: rgb(34, 52, 61);
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+} 
+
+
+.how__btn {
+    padding: 11px 18px;
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left; 
+    border-radius: 8px;
+    background: rgb(2, 137, 122);
+    border: none;
+    transition: all 0.4s ease;
+    margin-bottom: 115px; 
+    &:hover { 
+        background: rgb(71, 94, 105);
+        transform: scale(1.1);
+    }
+    
+    &:active {
+        background: rgb(228, 233, 243);
+        transform: scale(1.3);
+    }
+    
+}
