@@ -1,0 +1,123 @@
+// CONTACT //
+
+.contact {
+    
+}
+
+.contact__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 160px;
+}
+
+.contact__header {
+    color: rgb(37, 43, 66);
+    font-family: 'Poppins';
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.2px;
+    text-align: center; 
+}
+
+.contact__text {
+    margin-top: 27px;
+    margin-bottom: 65px;
+    text-align: center;
+    max-width: 315px;
+    color: rgb(55, 71, 84);
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    text-align: center;
+}
+
+.contact__img-wrapper {
+    
+}
+
+.contact__img {
+    &:nth-child(2) {
+        margin: 0px 21px;
+    }
+    
+}
+
+.contact__iframe {
+    margin-top: 65px;
+    margin-bottom: 60px;
+    width: 870px;
+}
+
+.contact__input-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 868px;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    border: 1px solid rgb(221, 221, 221);
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    margin-bottom: 150px;
+
+}
+
+.contact__header-last {
+    margin-bottom: 45px;
+    color: rgb(37, 43, 66);
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0.1px;
+    text-align: left; 
+}
+
+.contact__input {
+    max-width: 768px;
+    width: 100%;
+    padding: 19px 20px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 39px;  
+    background: rgb(245, 245, 245);
+    margin-bottom: 45px;
+    color: rgb(34, 52, 61);
+    font-family: 'Roboto';
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.1px;
+    text-align: left;
+    
+}
+
+.contact__btn {
+    padding: 18px 38px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    border-radius: 35px;
+    background: rgb(2, 137, 122);
+    transition: all 0.4s ease;
+    &:hover { 
+        background: rgb(71, 94, 105);
+        transform: scale(1.1);
+    }
+    
+    &:active {
+        background: rgb(228, 233, 243);
+        transform: scale(1.3);
+    }
+    margin-bottom: 52px;
+}
