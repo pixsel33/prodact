@@ -115,6 +115,11 @@
 @media only screen and (max-width: 769px) {
     
     
+    .container {
+        max-width: 769px;
+    }
+
+    
     .product {
         background: linear-gradient(180.00deg, rgb(237, 237, 237) 0.608%,rgba(255, 255, 255, 0) 82.092%);
     }
@@ -230,6 +235,9 @@
 
 @media only screen and (max-width: 426px) {
     
+    .container {
+        max-width: 426px;
+    }
     
     .product {
         background: linear-gradient(180.00deg, rgb(237, 237, 237) 0.608%,rgba(255, 255, 255, 0) 82.092%);

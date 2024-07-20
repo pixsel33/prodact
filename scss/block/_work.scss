@@ -98,6 +98,12 @@
 
 
 @media only screen and (max-width: 769px) {
+
+      
+    .container {
+        max-width: 769px;
+    }
+
     
     .work {
         
@@ -194,7 +200,13 @@
 
 
 @media only screen and (max-width: 426px) {
+
+
     
+    .container {
+        max-width: 426px;
+    }
+
     .work {
         
     }
