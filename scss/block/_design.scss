@@ -101,3 +101,222 @@
     letter-spacing: 0.2px;
     text-align: left;
 }
+
+
+@media only screen and (max-width: 769px) {
+    
+    
+    .design {
+        padding-bottom: 157px;
+    }
+    
+    .design__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    .design__header {
+        color: rgb(34, 52, 61);
+        font-family: 'Poppins';
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    
+    .design__text {
+        color: rgb(115, 115, 115);
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        max-width: 500px;
+        text-align: center;
+        margin-top: 8px;
+        margin-bottom: 50px;
+    }
+    
+    .design__list {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .design__item {
+        padding: 28px 9px 23px 9px;
+        box-sizing: border-box;
+        border: 1px solid #dedede;
+        border-radius: 5px;
+        background: #fff;
+        max-width: 210px;
+        width: 100%;
+        
+    }
+    
+    .design__score-img {
+        
+    }
+    
+    .design__item-text {
+        color: #737373;
+        font-family: "Poppins";
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: .2px;
+        text-align: left;
+        padding: 16px 0px;
+        
+    }
+    
+    .design__item-imfo-wrapper {
+        display: flex;
+    }
+    
+    .design__item__img {
+        margin-right: 14px;
+    }
+    
+    .design__info-wrappper {
+        
+    }
+    
+    .design__info {
+        color: rgb(2, 137, 122);
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        display: block;
+    }
+    
+    #design__info {
+        
+        color: rgb(37, 43, 66);
+        font-family: 'Poppins';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    
+    
+}
+
+
+@media only screen and (max-width: 426px) {
+    
+    .design {
+        padding-bottom: 157px;
+    }
+    
+    .design__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+    }
+    
+    .design__header {
+        color: rgb(34, 52, 61);
+        font-family: 'Poppins';
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 57px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    
+    .design__text {
+        color: #737373;
+        font-family: "Poppins";
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 28px;
+        letter-spacing: .2px;
+        text-align: left;
+        max-width: 315px;
+        text-align: center;
+        margin-top: 8px;
+        margin-bottom: 50px;
+    }
+    
+    .design__list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .design__item {
+        padding: 28px 26px 23px 26px;
+        box-sizing: border-box;
+        border: 1px solid #dedede;
+        border-radius: 5px;
+        background: #fff;
+        max-width: 327px;
+        width: 100%;
+        
+        &:nth-child(2) {
+            margin: 32px 0px;
+        }
+    }
+    
+    .design__score-img {
+        
+    }
+    
+    .design__item-text {
+        color: #737373;
+        font-family: "Poppins";
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 22px;
+        letter-spacing: .2px;
+        text-align: left;
+        padding: 16px 0px;
+        
+    }
+    
+    .design__item-imfo-wrapper {
+        display: flex;
+    }
+    
+    .design__item__img {
+        margin-right: 14px;
+    }
+    
+    .design__info-wrappper {
+        
+    }
+    
+    .design__info {
+        color: rgb(2, 137, 122);
+        font-family: 'Poppins';
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        display: block;
+    }
+    
+    #design__info {
+        
+        color: rgb(37, 43, 66);
+        font-family: 'Poppins';
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.2px;
+        text-align: left;
+    }
+    
+}
