@@ -7,43 +7,31 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+    
     <header class="header">
         <div class="container">
-            
-            <div class="header__wrapper">
-                <a class="header__link" href="/#" draggable="false">
-                    <img class="header__logo" src="./img/header__logo.svg" alt="logotip" draggable="false" >
-                </a>
-                
+            <div class="header__warpper">
+                <a class="header__logo" href="./index.html" draggable="false">  <img class="header__logo" src="./img/header__logo.svg" alt="logotip" draggable="false"></a>
                 <div class="header__nav-wrapper">
-                    <ul class="header__list">
-                        <li class="header__item">
-                            <a class="header__item-link" href="./index.html" draggable="false">Product</a>
-                        </li>
-                        <li class="header__item">
-                            <a class="header__item-link" href="./cuzztomer.html" draggable="false">Customer</a>
-                        </li>
-                        <li class="header__item">
-                            <a class="header__item-link" href="./pricing.html" draggable="false">Pricing</a>
-                        </li>
-                        <li class="header__item">
-                            <a class="header__item-link" href="./resources.html" draggable="false">Resources</a>
+                    <ul class="header__dropdown">
+                        <li class="header__drop-warpper"><img class="header__drop-img" src="./img/burger-menu-svgrepo-com.svg" alt="burger__menu" draggable="false">
+                        <ul class="header__list">
+                            <li class="header__item"><a href="./index.html" class="header__item-link" draggable="false">Product</a></li>
+                            <li class="header__item"><a href="./cuzztomer.html" class="header__item-link" draggable="false">Customers</a></li>
+                            <li class="header__item"><a href="./pricing.html" class="header__item-link" draggable="false">Pricing</a></li>
+                            <li class="header__item"><a href="./resources.html" class="header__item-link" draggable="false">Resources</a></li>
+                        </ul>
+                        <div class="header__btn-wrapper">
+                            <button class="header__btn">Sign In</button>
+                            <button class="header__btn">Sign Up</button>
+                            <button class="header__after"><img class="header__btn-img" src="./img/header__after-img.svg" alt="mode bn" draggable="false"></button>
+                        </div>
                         </li>
                     </ul>
-                   
-                    <div class="header__btn-warapper">
-                        <button class="header__btn">Sign in</button>
-                        <button class="header__btn">Sign up</button>
-                       
-                        <button class="header__btn-img"><img src="./img/header__after-img.svg" alt="img" draggable="false"></button>
-                    </div>
-                    <button class="header__bureger"><img class="header__bureger-img" src="./img/burger-menu-svgrepo-com.svg" alt=""></button>
-                  
                 </div>
-                
             </div>
-            
         </div>
+        
     </header>
     <main class="main">
         <section class="price">
